@@ -1,7 +1,8 @@
 # Types
 
 # Abstract vs Concrete
-
+# we can only create variables from concrete types instead of Abstract tyoes
+# 
 x = 3.14
 y = 22
 
@@ -16,12 +17,12 @@ supertype(typeof(x))
 
 subtypes(AbstractFloat)
 
-# isa comparison
+# isa comparison with types in the 
 
 y isa Real
 isa(y, Real)
 
-Base.summarysize(x)
+Base.summarysize(x) #sizing bytes 
 
 isconcretetype(Float64)
 
@@ -39,13 +40,13 @@ another_vec = [1, "string", true, 3.14]
 typeof(x_vec)
 # Vector{Type} and AbstractVector{Type}
 
-typeof(x_vec)
+typeof(x_vec)# Vector{Int64} (alias for Array{Int64, 1}) a container Array,the elements are Int64,dimension is one 
 
 # Matrix{Type} and AbstractMatrix{Type}
 
 x_matrix = [1 2 3; 4 5 6]
 typeof(x_matrix)
-
+supertypes(Matrix)
 # It's all Array{Type, N}
 
 # AbstractArray{AbstractFloat, 2}

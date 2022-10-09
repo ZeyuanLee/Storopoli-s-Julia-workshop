@@ -2,11 +2,11 @@
 
 # && (AND)
 
-true && false
+true && false#& ambersand
 
 # || (OR)
 
-true || false
+true || false #verticle bar
 
 # ! (NOT)
 
@@ -14,7 +14,9 @@ true || false
 
 # Why && / || instead of & / |
 
-# && &
+# && 
+# & for bitwise and
+#single & | bit operators
 
 # Numerical comparisons
 
@@ -22,11 +24,12 @@ true || false
 
 5 != 5.0
 
-# Less than: < and <=
+# Less than: < and <= \ge
 
 5 <= 5
+5 ≤ 6# \ge
 
-# Greater than: > and >=
+# Greater than: > and >= \ge
 
 10 ≥ 2
 

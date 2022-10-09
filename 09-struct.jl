@@ -5,7 +5,7 @@ struct Person
     age::Int64
 end
 
-jose = Person(true, 34)
+jose = Person("Nose", 34)
 
 typeof(jose)
 
@@ -18,7 +18,7 @@ fieldtypes(Person)
 
 # mutable structs
 
-jose.name = "José"
+#jose.name = "José"
 
 mutable struct MutablePerson
     name::String
